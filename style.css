@@ -1,0 +1,78 @@
+	
+.card:hover
+{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+results
+{
+	background-color: :#323754;
+}
+body, html 
+	{
+	height: 100%;
+}
+
+#btn:visited
+{
+  color: white;
+}
+#btn
+{
+  border-radius: 0px 12px 12px 0px;
+  font-size: 120%;
+  padding:18px;
+  background-color: #28a800;
+  text-align: center;
+}
+#btn:hover
+{
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+#search:focus 
+{
+    outline:none;
+}
+#ready
+{
+  font-family: 'Itim', cursive;
+  color: red;
+}
+#BookText
+{
+  font-family: 'Itim', cursive;
+  color: white;
+  position: absolute;
+  left:80px; top:30px;
+}
+
+#move
+{
+  display: none;
+  background-color: #28a800;
+  color: white;
+  position: absolute;
+  right:80px; bottom:30px;
+  border-radius: : 2px;
+  padding: 5px;
+  border: 1px solid white;
+}
+#container
+{
+	background:url(https://cdn-images-1.medium.com/max/2000/1*uK45gJVojcH8g6EjvNNJNQ.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+	opacity: 0.7;
+}
+#search
+{
+	width: 50%;
+	background-color: white;
+	border-radius: 12px 0px 0px 12px ;
+	opacity: .7;
+	font-size: 120%;
+	padding:18px;
+}
